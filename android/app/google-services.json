@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "962330795448",
+    "firebase_url": "https://skillsup-cde99.firebaseio.com",
+    "project_id": "skillsup-cde99",
+    "storage_bucket": "skillsup-cde99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962330795448:android:c1c31f564e28a44e0d034d",
+        "android_client_info": {
+          "package_name": "com.example.flutterpp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962330795448-lekpbndh8cf1qmf1ucls1sshnjmm5h19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq5vbF2RpLsXn1zVEUK1KkNdhLx54sfKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962330795448-lekpbndh8cf1qmf1ucls1sshnjmm5h19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
