@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutterpp/authentication.dart';
 import 'package:firebase_database/firebase_database.dart';
+import 'package:flutterpp/menu_dashboard_layout.dart';
 import 'package:flutterpp/todo.dart';
 import 'dart:async';
 
@@ -236,12 +237,13 @@ class _HomePageState extends State<HomePage> {
             );
           });
     } else {
-      return Center(
-          child: Text(
-            "Welcome. Your list is empty",
-            textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 30.0),
-          ));
+      return MaterialApp(
+          title: 'Learning The Cool Way',
+          debugShowCheckedModeBanner: false,
+          theme: ThemeData(
+          primarySwatch: Colors.blue,
+      ),
+    home: MenuDashboardLayout());
     }
   }
 
@@ -249,7 +251,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return new Scaffold(
         appBar: new AppBar(
-          title: new Text('Flutter login demo'),
+          title: new Text('Poke Code'),
           actions: <Widget>[
             new FlatButton(
                 child: new Text('Logout',
